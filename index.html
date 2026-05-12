@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RYOSEIWORLD合同会社 | AIで、もっと良い仕事と生き方を。</title>
+<meta name="description" content="RYOSEIWORLD合同会社は、AIエージェントの力で福祉施設の業務革新・企業のClaude Code導入支援・パチスロAI予想を提供します。">
+<meta property="og:title" content="RYOSEIWORLD合同会社">
+<meta property="og:description" content="AIで、もっと良い仕事と生き方を。福祉×AI / Claude Code導入支援 / AI予想">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://ryoseiworld.co.jp/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700;900&family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        fontFamily: {
+          sans: ['"Noto Sans JP"', 'Inter', 'sans-serif'],
+          en: ['Inter', '"Noto Sans JP"', 'sans-serif'],
+        },
+        colors: {
+          base: '#0a0e1a',
+          card: '#111827',
+          line: '#1f2937',
+          accent: '#f59e0b',
+          accent2: '#fb923c',
+        }
+      }
+    }
+  }
+</script>
+<style>
+  html { scroll-behavior: smooth; }
+  body { background: #0a0e1a; color: #e5e7eb; font-family: 'Noto Sans JP', 'Inter', sans-serif; -webkit-font-smoothing: antialiased; }
+  .gradient-text { background: linear-gradient(135deg, #f59e0b 0%, #fb923c 50%, #fbbf24 100%); -webkit-background-clip: text; background-clip: text; color: transparent; }
+  .glow { box-shadow: 0 0 80px -20px rgba(245, 158, 11, 0.4); }
+  .grid-bg {
+    background-image:
+      linear-gradient(rgba(245, 158, 11, 0.05) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(245, 158, 11, 0.05) 1px, transparent 1px);
+    background-size: 56px 56px;
+  }
+  .fade-in { animation: fadeIn 0.8s ease-out forwards; opacity: 0; transform: translateY(20px); }
+  @keyframes fadeIn { to { opacity: 1; transform: translateY(0); } }
+  .delay-1 { animation-delay: 0.15s; }
+  .delay-2 { animation-delay: 0.3s; }
+  .delay-3 { animation-delay: 0.45s; }
+</style>
+</head>
+<body>
+
+<header class="fixed top-0 inset-x-0 z-50 backdrop-blur-md bg-base/70 border-b border-line">
+  <div class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
+    <a href="#" class="flex items-center gap-2">
+      <div class="w-8 h-8 rounded-lg bg-gradient-to-br from-accent to-accent2 flex items-center justify-center font-en font-extrabold text-base">r</div>
+      <span class="font-en font-bold tracking-tight">RYOSEIWORLD</span>
+    </a>
+    <nav class="hidden md:flex items-center gap-8 text-sm">
+      <a href="#about" class="hover:text-accent transition">About</a>
+      <a href="#services" class="hover:text-accent transition">Services</a>
+      <a href="#company" class="hover:text-accent transition">Company</a>
+      <a href="#contact" class="hover:text-accent transition">Contact</a>
+    </nav>
+    <a href="#contact" class="hidden md:inline-flex items-center gap-1 px-4 py-2 rounded-full bg-accent text-base text-sm font-bold hover:bg-accent2 transition">
+      お問い合わせ <span aria-hidden>→</span>
+    </a>
+  </div>
+</header>
+
+<section class="relative min-h-screen flex items-center pt-24 pb-20 overflow-hidden">
+  <div class="absolute inset-0 grid-bg opacity-40"></div>
+  <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-accent/10 rounded-full blur-3xl"></div>
+  <div class="relative max-w-6xl mx-auto px-6 w-full">
+    <div class="fade-in inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-card border border-line text-xs text-gray-400 mb-8">
+      <span class="w-2 h-2 rounded-full bg-accent animate-pulse"></span>
+      RYOSEIWORLD合同会社
+    </div>
+    <h1 class="fade-in delay-1 text-4xl md:text-6xl lg:text-7xl font-black leading-tight tracking-tight mb-6">
+      AIで、<br>
+      <span class="gradient-text">もっと良い仕事</span>と<br>
+      生き方を。
+    </h1>
+    <p class="fade-in delay-2 text-base md:text-lg text-gray-400 leading-relaxed max-w-2xl mb-10">
+      これまで安く働かざるをえなかった人たちに、AIエージェントの力でより価値ある仕事を。<br class="hidden md:inline">
+      企業には、Claude Codeで開発を加速する仕組みを。テクノロジーで現場を底上げします。
+    </p>
+    <div class="fade-in delay-3 flex flex-wrap gap-3">
+      <a href="#services" class="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-accent text-base font-bold hover:bg-accent2 transition glow">
+        事業を見る <span aria-hidden>→</span>
+      </a>
+      <a href="#contact" class="inline-flex items-center gap-2 px-6 py-3 rounded-full border border-line hover:border-accent hover:text-accent transition">
+        お問い合わせ
+      </a>
+    </div>
+  </div>
+</section>
+
+<section id="about" class="py-24 border-t border-line">
+  <div class="max-w-6xl mx-auto px-6">
+    <div class="text-sm font-en text-accent mb-3">— About</div>
+    <h2 class="text-3xl md:text-5xl font-black leading-tight mb-8 max-w-3xl">
+      テクノロジーは、<br>現場で働く人のためにある。
+    </h2>
+    <div class="grid md:grid-cols-2 gap-12 mt-12">
+      <p class="text-gray-300 leading-loose">
+        AIの進化は驚くほど速い一方で、その恩恵はまだ一部の人にしか届いていません。<br><br>
+        ryoseiworldは、福祉施設で働く方々から企業の開発現場まで、<strong class="text-white">「AIエージェントを使いこなせる側」に立てる仕組み</strong>を届けることに集中しています。
+      </p>
+      <p class="text-gray-300 leading-loose">
+        単にAIを導入するのではなく、<strong class="text-white">現場の業務を深く理解し、その人の仕事を一段引き上げる</strong>こと。<br><br>
+        それが、私たちが福祉・企業支援・予測支援という多様な領域で同じ哲学を貫いている理由です。
+      </p>
+    </div>
+  </div>
+</section>
+
+<section id="services" class="py-24 border-t border-line">
+  <div class="max-w-6xl mx-auto px-6">
+    <div class="text-sm font-en text-accent mb-3">— Services</div>
+    <h2 class="text-3xl md:text-5xl font-black leading-tight mb-16">3つの事業</h2>
+
+    <div class="space-y-6">
+
+      <article class="group bg-card border border-line rounded-2xl p-8 md:p-10 hover:border-accent/50 transition">
+        <div class="flex items-start gap-6 flex-col md:flex-row">
+          <div class="shrink-0 w-16 h-16 rounded-xl bg-gradient-to-br from-accent/20 to-accent2/20 border border-accent/30 flex items-center justify-center text-3xl">
+            🤝
+          </div>
+          <div class="flex-1">
+            <div class="flex items-center gap-3 mb-3">
+              <span class="font-en text-xs text-accent">01</span>
+              <span class="text-xs px-2 py-0.5 rounded-full bg-accent/20 text-accent">主力事業</span>
+            </div>
+            <h3 class="text-2xl md:text-3xl font-bold mb-3">福祉施設へのAIエージェント導入</h3>
+            <p class="text-gray-400 leading-loose mb-4">
+              これまで賃金の低い仕事に従事してきた方々が、AIエージェントを使うことで、より価値ある仕事へとステップアップできるように。福祉施設の現場業務をAIで再設計します。
+            </p>
+            <ul class="text-sm text-gray-500 space-y-1.5">
+              <li>・現場ヒアリングからの業務棚卸し</li>
+              <li>・利用者・職員双方を考えたAIエージェント設計</li>
+              <li>・定着まで伴走する継続支援</li>
+            </ul>
+          </div>
+        </div>
+      </article>
+
+      <article class="group bg-card border border-line rounded-2xl p-8 md:p-10 hover:border-accent/50 transition">
+        <div class="flex items-start gap-6 flex-col md:flex-row">
+          <div class="shrink-0 w-16 h-16 rounded-xl bg-gradient-to-br from-accent/20 to-accent2/20 border border-accent/30 flex items-center justify-center text-3xl">
+            ⚡
+          </div>
+          <div class="flex-1">
+            <div class="flex items-center gap-3 mb-3">
+              <span class="font-en text-xs text-accent">02</span>
+              <span class="text-xs px-2 py-0.5 rounded-full bg-emerald-500/20 text-emerald-400">toB</span>
+            </div>
+            <h3 class="text-2xl md:text-3xl font-bold mb-3">企業向け Claude Code 導入支援</h3>
+            <p class="text-gray-400 leading-loose mb-4">
+              Anthropic社のClaude Codeを企業に導入し、エンジニアの生産性を数倍に引き上げる仕組みを構築します。導入研修からカスタム運用、社内ナレッジ整備まで一気通貫で支援。
+            </p>
+            <ul class="text-sm text-gray-500 space-y-1.5">
+              <li>・Claude Code導入ハンズオン研修</li>
+              <li>・社内ワークフロー設計とハーネス構築</li>
+              <li>・スキル・コマンド・MCP環境のカスタマイズ</li>
+            </ul>
+          </div>
+        </div>
+      </article>
+
+      <article class="group bg-card border border-line rounded-2xl p-8 md:p-10 hover:border-accent/50 transition relative overflow-hidden">
+        <div class="absolute top-4 right-4 text-xs px-3 py-1 rounded-full bg-amber-500/20 text-amber-400 border border-amber-500/30">
+          Coming Soon
+        </div>
+        <div class="flex items-start gap-6 flex-col md:flex-row">
+          <div class="shrink-0 w-16 h-16 rounded-xl bg-gradient-to-br from-accent/20 to-accent2/20 border border-accent/30 flex items-center justify-center text-3xl">
+            🎰
+          </div>
+          <div class="flex-1">
+            <div class="flex items-center gap-3 mb-3">
+              <span class="font-en text-xs text-accent">03</span>
+              <span class="text-xs px-2 py-0.5 rounded-full bg-purple-500/20 text-purple-400">toC</span>
+            </div>
+            <h3 class="text-2xl md:text-3xl font-bold mb-3">パチンコ・パチスロ AI予想</h3>
+            <p class="text-gray-400 leading-loose mb-4">
+              パチンコ・パチスロユーザー向けに、AIが「今日勝てるお店」と「勝てる台」を予想するサービスを準備中です。データドリブンに、ユーザーの勝率向上をサポートします。
+            </p>
+            <ul class="text-sm text-gray-500 space-y-1.5">
+              <li>・店舗別・機種別のデータ分析</li>
+              <li>・日別の予想配信（開発中）</li>
+              <li>・近日リリース予定</li>
+            </ul>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="py-24 border-t border-line">
+  <div class="max-w-3xl mx-auto px-6 text-center">
+    <div class="text-sm font-en text-accent mb-3">— Contact</div>
+    <h2 class="text-3xl md:text-5xl font-black leading-tight mb-6">
+      お気軽に<br>ご相談ください。
+    </h2>
+    <p class="text-gray-400 leading-loose mb-10">
+      福祉施設へのAI導入、Claude Code導入支援、その他AI活用に関するご相談まで。<br>
+      まずはお話だけでも歓迎です。
+    </p>
+    <a href="mailto:info@ryoseiworld.co.jp" class="inline-flex items-center gap-3 px-8 py-4 rounded-full bg-accent text-base font-bold hover:bg-accent2 transition glow">
+      メールで問い合わせる <span aria-hidden>→</span>
+    </a>
+    <p class="mt-6 text-xs text-gray-500 font-en">info@ryoseiworld.co.jp</p>
+  </div>
+</section>
+
+<section id="company" class="py-24 border-t border-line">
+  <div class="max-w-4xl mx-auto px-6">
+    <div class="text-sm font-en text-accent mb-3">— Company</div>
+    <h2 class="text-3xl md:text-5xl font-black leading-tight mb-12">会社情報</h2>
+    <dl class="divide-y divide-line border-y border-line">
+      <div class="grid grid-cols-1 md:grid-cols-[180px_1fr] gap-2 md:gap-8 py-5">
+        <dt class="text-sm text-gray-500 font-en">商号</dt>
+        <dd class="text-gray-200">RYOSEIWORLD合同会社</dd>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-[180px_1fr] gap-2 md:gap-8 py-5">
+        <dt class="text-sm text-gray-500 font-en">英文表記</dt>
+        <dd class="text-gray-200 font-en">RYOSEIWORLD LLC</dd>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-[180px_1fr] gap-2 md:gap-8 py-5">
+        <dt class="text-sm text-gray-500 font-en">代表社員</dt>
+        <dd class="text-gray-200">今井 涼晴 <span class="text-gray-500 font-en">/ Imai Ryosei</span></dd>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-[180px_1fr] gap-2 md:gap-8 py-5">
+        <dt class="text-sm text-gray-500 font-en">所在地</dt>
+        <dd class="text-gray-200 leading-relaxed">
+          〒150-0021<br>
+          東京都渋谷区恵比寿西2-4-8<br>
+          ウィンド恵比寿ビル8F
+        </dd>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-[180px_1fr] gap-2 md:gap-8 py-5">
+        <dt class="text-sm text-gray-500 font-en">事業内容</dt>
+        <dd class="text-gray-200 leading-relaxed">
+          ・福祉施設へのAIエージェント導入支援<br>
+          ・企業向けClaude Code導入支援<br>
+          ・パチンコ・パチスロAI予想サービス（開発中）
+        </dd>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-[180px_1fr] gap-2 md:gap-8 py-5">
+        <dt class="text-sm text-gray-500 font-en">連絡先</dt>
+        <dd class="text-gray-200">
+          <a href="mailto:info@ryoseiworld.co.jp" class="hover:text-accent transition font-en">info@ryoseiworld.co.jp</a>
+        </dd>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-[180px_1fr] gap-2 md:gap-8 py-5">
+        <dt class="text-sm text-gray-500 font-en">ウェブサイト</dt>
+        <dd class="text-gray-200">
+          <a href="https://ryoseiworld.co.jp" class="hover:text-accent transition font-en">https://ryoseiworld.co.jp</a>
+        </dd>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-[180px_1fr] gap-2 md:gap-8 py-5">
+        <dt class="text-sm text-gray-500 font-en">インボイス登録番号</dt>
+        <dd class="text-gray-200 font-en">T9030003022468</dd>
+      </div>
+    </dl>
+  </div>
+</section>
+
+<footer class="border-t border-line py-12">
+  <div class="max-w-6xl mx-auto px-6 flex flex-col md:flex-row md:items-end md:justify-between gap-6">
+    <div>
+      <div class="flex items-center gap-2 mb-3">
+        <div class="w-8 h-8 rounded-lg bg-gradient-to-br from-accent to-accent2 flex items-center justify-center font-en font-extrabold text-base">r</div>
+        <span class="font-en font-bold tracking-tight">RYOSEIWORLD</span>
+      </div>
+      <p class="text-sm text-gray-500">RYOSEIWORLD合同会社</p>
+      <p class="text-xs text-gray-600 mt-1">〒150-0021 東京都渋谷区恵比寿西2-4-8 ウィンド恵比寿ビル8F</p>
+    </div>
+    <div class="text-xs text-gray-600 font-en">© 2026 RYOSEIWORLD LLC. All rights reserved.</div>
+  </div>
+</footer>
+
+</body>
+</html>
